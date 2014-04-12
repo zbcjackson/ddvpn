@@ -6,6 +6,7 @@ ddvpn是一个用于dd-wrt路由器的脚本，受chnroute和autoddvpn启发而�
 ##设置方式：
 DDWRT必须启动JFFS：在dd-wrt的Administration->Management下面找到JFFS支持，并打开。
 
+SSH进入dd-wrt：
 ```bash
 # mkdir /jffs/pptp
 # cd /jffs/pptp
