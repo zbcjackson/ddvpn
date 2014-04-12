@@ -10,9 +10,9 @@ SSH进入dd-wrt：
 ```bash
 # mkdir /jffs/pptp
 # cd /jffs/pptp
-# wget http://autoddvpn.googlecode.com/svn/trunk/grace.d/vpnup.sh
-# wget http://autoddvpn.googlecode.com/svn/trunk/grace.d/vpndown.sh
-# wget http://autoddvpn.googlecode.com/svn/trunk/pptp/jffs/run.sh
+# wget https://raw.githubusercontent.com/zbcjackson/ddvpn/master/vpnup.sh
+# wget https://raw.githubusercontent.com/zbcjackson/ddvpn/master/vpndown.sh
+# wget https://raw.githubusercontent.com/zbcjackson/ddvpn/master/run.sh
 # chmod a+x *.sh
 # nvram set rc_startup='/jffs/pptp/run.sh'
 # nvram commit
