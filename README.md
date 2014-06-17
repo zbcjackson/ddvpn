@@ -10,9 +10,7 @@ SSH进入dd-wrt：
 ```bash
 # mkdir /jffs/pptp
 # cd /jffs/pptp
-# wget https://raw.githubusercontent.com/zbcjackson/ddvpn/master/vpnup.sh
-# wget https://raw.githubusercontent.com/zbcjackson/ddvpn/master/vpndown.sh
-# wget https://raw.githubusercontent.com/zbcjackson/ddvpn/master/run.sh
+# 把vpnup.sh, vpndown.sh和run.sh上传至这个文件夹
 # chmod a+x *.sh
 # nvram set rc_startup='/jffs/pptp/run.sh'
 # nvram commit
